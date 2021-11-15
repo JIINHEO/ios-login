@@ -219,10 +219,10 @@
             </objects>
             <point key="canvasLocation" x="567" y="-15"/>
         </scene>
-        <!--Main View Cotnroller-->
+        <!--Main View Controller-->
         <scene sceneID="wk0-lo-2Od">
             <objects>
-                <viewController id="bsg-ud-sML" customClass="MainViewCotnroller" customModule="ios_login" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="bsg-ud-sML" customClass="MainViewController" customModule="ios_login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QI0-bI-fiI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,7 +8,7 @@
 import UIKit
 import FirebaseAuth
 
-class MainViewCotnroller: UIViewController {
+class MainViewController: UIViewController {
     
     @IBOutlet weak var welcomeLabel: UILabel!
     
@@ -24,6 +24,13 @@ class MainViewCotnroller: UIViewController {
         
         // navigationBar 숨기기
         navigationController?.navigationBar.isHidden = true
+    
+        let email = Auth.auth().currentUser?.email ?? "고객"
+        
+        welcomeLabel.text = """
+        환영합니다.
+        \(email)님
+        """
     }
     
     @IBAction func logoutButtonTapped(_ sender: UIButton) {
@@ -36,6 +43,5 @@ class MainViewCotnroller: UIViewController {
         }catch let signOutError as NSError {
             print("Error: Signout \(signOutError.localizedDescription)")
         }
-      
     }
 }
