@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainViewCotnroller: UIViewController {
     
@@ -25,7 +26,16 @@ class MainViewCotnroller: UIViewController {
         navigationController?.navigationBar.isHidden = true
     }
     
-    @IBAction func logoutButtonTapped(_ sender: UIButton){
-        self.navigationController?.popToRootViewController(animated: true)
+    @IBAction func logoutButtonTapped(_ sender: UIButton) {
+        let firebaseAuth = Auth.auth()
+        
+        do {
+            try firebaseAuth.signOut()
+            self.navigationController?.popToRootViewController(animated: true)
+            
+        }catch let signOutError as NSError {
+            print("Error: Signout \(signOutError.localizedDescription)")
+        }
+      
     }
 }
