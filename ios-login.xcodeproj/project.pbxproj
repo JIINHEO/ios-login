@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		E8B2F5952740EE02009D4F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5942740EE02009D4F9C /* AppDelegate.swift */; };
 		E8B2F5972740EE02009D4F9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5962740EE02009D4F9C /* SceneDelegate.swift */; };
-		E8B2F5992740EE02009D4F9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5982740EE02009D4F9C /* ViewController.swift */; };
 		E8B2F59C2740EE02009D4F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B2F59A2740EE02009D4F9C /* Main.storyboard */; };
 		E8B2F59E2740EE03009D4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B2F59D2740EE03009D4F9C /* Assets.xcassets */; };
 		E8B2F5A12740EE03009D4F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B2F59F2740EE03009D4F9C /* LaunchScreen.storyboard */; };
 		E8B2F5AC2740EE04009D4F9C /* ios_loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5AB2740EE04009D4F9C /* ios_loginTests.swift */; };
 		E8B2F5B62740EE04009D4F9C /* ios_loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5B52740EE04009D4F9C /* ios_loginUITests.swift */; };
 		E8B2F5B82740EE04009D4F9C /* ios_loginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5B72740EE04009D4F9C /* ios_loginUITestsLaunchTests.swift */; };
+		E8B2F5C52740F0F7009D4F9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2F5C42740F0F7009D4F9C /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		E8B2F5912740EE02009D4F9C /* ios-login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B2F5942740EE02009D4F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B2F5962740EE02009D4F9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8B2F5982740EE02009D4F9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8B2F59B2740EE02009D4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B2F59D2740EE03009D4F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B2F5A02740EE03009D4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		E8B2F5B12740EE04009D4F9C /* ios-loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-loginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B2F5B52740EE04009D4F9C /* ios_loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_loginUITests.swift; sourceTree = "<group>"; };
 		E8B2F5B72740EE04009D4F9C /* ios_loginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_loginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8B2F5C42740F0F7009D4F9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				E8B2F5942740EE02009D4F9C /* AppDelegate.swift */,
 				E8B2F5962740EE02009D4F9C /* SceneDelegate.swift */,
-				E8B2F5982740EE02009D4F9C /* ViewController.swift */,
 				E8B2F59A2740EE02009D4F9C /* Main.storyboard */,
+				E8B2F5C42740F0F7009D4F9C /* LoginViewController.swift */,
 				E8B2F59D2740EE03009D4F9C /* Assets.xcassets */,
 				E8B2F59F2740EE03009D4F9C /* LaunchScreen.storyboard */,
 				E8B2F5A22740EE03009D4F9C /* Info.plist */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B2F5992740EE02009D4F9C /* ViewController.swift in Sources */,
+				E8B2F5C52740F0F7009D4F9C /* LoginViewController.swift in Sources */,
 				E8B2F5952740EE02009D4F9C /* AppDelegate.swift in Sources */,
 				E8B2F5972740EE02009D4F9C /* SceneDelegate.swift in Sources */,
 			);
