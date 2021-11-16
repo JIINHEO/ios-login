@@ -107,7 +107,6 @@
 				E80E2634D8B9931412C45E82 /* Pods-ios-loginTests.debug.xcconfig */,
 				1845F21D483E8F805C630382 /* Pods-ios-loginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

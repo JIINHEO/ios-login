@@ -7,6 +7,7 @@ target 'ios-login' do
 
   # Pods for ios-login
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   target 'ios-loginTests' do
     inherit! :search_paths
